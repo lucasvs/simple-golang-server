@@ -1,4 +1,4 @@
 # simple-golang-server
-A simple golang server with graceful shutdown and docker compose watch.
+Testing the new watch command from docker compose, you gonna need a run forever service in this case we use rabbitMQ
 
 To run: `docker compose watch`
