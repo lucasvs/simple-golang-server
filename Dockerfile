@@ -1,4 +1,4 @@
-FROM golang:1.21.0-bookworm
+FROM golang:1.22.3-alpine3.19
 
 RUN --mount=type=cache,target=/var/cache/apt \
     apt-get update && apt-get install -y build-essential
